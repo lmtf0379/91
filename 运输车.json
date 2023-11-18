@@ -12,7 +12,7 @@
 	    }],
 
 	"sites":[
-{"key":"豆瓣","name":"🏮运输车:祝您中秋快乐!幸福安康!🏮","type":3,"api":"./lib/apiv43drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"./lib/douban.js"},
+{"key":"豆瓣","name":"🏮接口免费🏮","type":3,"api":"./lib/apiv43drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"./lib/douban.js"},
 {"key":"JRKAN直播","name":"⚽JRKAN直播","type":3,"api": "csp_XPath","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/jrkan.json"},
         {
             "key": "88js",
@@ -23,6 +23,16 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0
+        },
+        {
+            "key": "py_cctv",
+            "name": "❤️┃央视┃大全",
+            "type": 3,
+            "api": "py_cctv",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./lib/cctv.py"
         },
 {"key":"虎牙直播","name":"🐯虎牙直播","type":3,"api":"./lib/apiv43drpy2.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"./lib/huyazhibo.js"},
 {"key":"斗鱼直播","name":"🐟斗鱼直播","type":3,"api":"./lib/apiv43drpy2.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"./lib/douyu.js"},
