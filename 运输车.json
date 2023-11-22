@@ -12,6 +12,7 @@
 	    }],
 
 	"sites":[
+{"key":"豆瓣","name":"🏮点击主页切换节目🏮","type":3,"api":"./lib/apiv43drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"./lib/douban.js"},        
 {"key":"88看球","name":"⚽88看球","type":3,"api":"./lib/apiv43drpy2.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"./lib/88kanqiu.js"},
 {"key":"JRKAN直播","name":"⚽JRKAN直播","type":3,"api": "csp_XPath","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/jrkan.json"},
 {"key":"虎牙直播","name":"🐯虎牙直播","type":3,"api":"./lib/apiv43drpy2.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"./lib/huyazhibo.js"},
