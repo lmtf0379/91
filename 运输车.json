@@ -14,8 +14,50 @@
 	"sites":[        
 {"key":"88看球","name":"⚽88看球","type":3,"api":"./lib/apiv43drpy2.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"./lib/88kanqiu.js"},
 {"key":"JRKAN直播","name":"⚽JRKAN直播","type":3,"api": "csp_XPath","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/jrkan.json"},
-{"key":"虎牙直播","name":"🐯虎牙直播","type":3,"api":"./lib/apiv43drpy2.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"./lib/huyazhibo.js"},
-{"key":"斗鱼直播","name":"🐟斗鱼直播","type":3,"api":"./lib/apiv43drpy2.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"./lib/douyu.js"}
+ {
+            "key": "js虎牙",
+            "name": "虎牙┃直播",
+            "type": 3,
+            "api": "https://drpy.cainisi.cf/libs/drpy2.min.js",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "https://drpy.cainisi.cf/js/虎牙直播.js"
+        },
+        {
+            "key": "csp_XYQBiu_斗鱼",
+            "name": "斗鱼┃直播",
+            "type": 3,
+            "api": "csp_XYQBiu",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "https://tvbox.cainisi.cf/json/XYQBiu/斗鱼直播.json"
+        },
+      {
+            "key": "310直播",
+            "name": "⚽310┃看球",
+            "type": 3,
+            "api": "https://drpy.cainisi.cf/libs/drpy2.min.js",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "https://drpy.cainisi.cf/js/310直播.js"
+        },
+        {
+            "key": "JRKAN直播",
+            "name": "⚽JRKAN",
+            "type": 3,
+            "api": "https://drpy.cainisi.cf/libs/drpy2.min.js",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "https://drpy.cainisi.cf/js/JRKAN直播.js"
+        }
 ],
 "parses": [{ 
          "name": "并发", 
