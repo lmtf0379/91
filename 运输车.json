@@ -1,4 +1,4 @@
-//以下全部出自网络和大佬资源，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法用途]
+//以下全部出自网络和大佬资源，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法用途根据运输车和http://www.lyyytv.cn/yt/yt.json改编]
 
 {
 	"spider": "./lib/YSC.jar;md5;5e6b85d785a99b75023824e9bd3e9ce5",
@@ -13,6 +13,17 @@
 
 	"sites":[        
 {"key":"88看球","name":"⚽88看球","type":3,"api":"./lib/apiv43drpy2.min.js","searchable":0,"quickSearch":0,"filterable":1,"ext":"./lib/88kanqiu.js"},
+      {
+            "key": "310直播",
+            "name": "⚽310┃看球",
+            "type": 3,
+            "api": "https://drpy.cainisi.cf/libs/drpy2.min.js",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "https://drpy.cainisi.cf/js/310直播.js"
+        },
 {"key":"JRKAN直播","name":"⚽JRKAN直播","type":3,"api": "csp_XPath","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/jrkan.json"},
  {
             "key": "js虎牙",
@@ -35,28 +46,6 @@
             "filterable": 1,
             "changeable": 0,
             "ext": "https://tvbox.cainisi.cf/json/XYQBiu/斗鱼直播.json"
-        },
-      {
-            "key": "310直播",
-            "name": "⚽310┃看球",
-            "type": 3,
-            "api": "https://drpy.cainisi.cf/libs/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "changeable": 0,
-            "ext": "https://drpy.cainisi.cf/js/310直播.js"
-        },
-        {
-            "key": "JRKAN直播",
-            "name": "⚽JRKAN",
-            "type": 3,
-            "api": "https://drpy.cainisi.cf/libs/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "changeable": 0,
-            "ext": "https://drpy.cainisi.cf/js/JRKAN直播.js"
         }
 ],
 "parses": [{ 
